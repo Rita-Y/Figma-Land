@@ -1,0 +1,681 @@
+/* ---------------- RESET STYLES --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* ---------------- BASE CONFIG --------------- */
+html {
+    font-size: 10px;
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 79%;
+    margin: 0 auto;
+}
+
+p {
+    display: block;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* ---------------- HEADER --------------- */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 652px;
+    background-image: url(../assets/woman-in-yellow.jpg);
+}
+
+/* ---------------- NAVIGATION --------------- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 1333px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 206px;
+    height: 78px;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 647px;
+    height: 57px;
+    list-style: none;
+}
+
+.link-nav{
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-weight: 600;
+
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 333px;
+    height: 57px;
+}
+
+.profile {
+    background-image: url(../assets/avatar.png);
+}
+
+.basket {
+    background-image: url(../assets/basket.png);
+}
+
+.icon-like {
+    background-image: url(../assets/icon-like.png);
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+
+/* ---------------- HEADING --------------- */
+.heading {
+    width: 631px;
+    height: 315px;
+    
+    background: rgb(124, 0, 0);
+}
+
+.div-icon {
+    width: 56px;
+    height: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+
+/* ---------------- HEADING --------------- */
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 315px;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #FFFFFF;
+    font-style: normal;
+    
+    background: rgb(124, 0, 0);
+}
+
+/* ---------------- SECTION --------------- */
+.section {
+    margin: 0 auto;
+    padding: 49px 0;
+
+    /*delete*/
+    background: rgb(140, 68, 0);
+}
+
+.categories {
+    display: flex;    
+
+    gap: 10px;
+    padding: 15px 0;
+
+    margin: 0 auto;
+    
+    /*delete*/
+    background: rgb(182, 88, 0);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0 auto;
+
+    /*delete*/
+    background: rgb(209, 101, 0);
+}
+
+.card {
+
+    width: 370px;
+    height: 468px;
+    margin: 0 auto;
+
+    /*delete*/
+    background: rgb(209, 101, 0);
+}
+
+.cards_img {
+    width: 370px;
+    height: 220px;
+    margin: 0 auto;
+
+    /*delete*/
+    background: rgb(255, 141, 35);
+}
+
+/* ---------------- MAIN --------------- */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    padding-top: 30px;
+    font-size: 2.4rem; 
+}
+
+.main_products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.products {
+    width: 242px;
+    height: 627px;
+}
+
+.products-img {
+    width: 242px;
+    height: 414px;
+    border-radius: 10px;
+}
+
+.name-product {
+    font-size: 2.0rem;
+    padding-top: 14px;
+}
+
+.name-color {
+    font-size: 2.0rem;
+    color: #BDBDBD;
+}
+
+.cost {
+    font-size: 2.4rem;
+    padding-top: 14px;
+}
+
+.list-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 145px;
+    height: 30px;
+    list-style: none;
+}
+
+.color-blue {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+    background: #2091F9;
+}
+
+.color-green {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+    background: #2DC071;
+}
+
+.color-orange {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+    background: #E77C40;
+}
+
+.color-black {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+    background: #252B42;
+}
+
+.list-sizes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 10px 0;
+
+    width: 169px;
+    height: 29px;
+    list-style: none;
+}
+
+.size {
+    padding: 4px;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    width: 349px;
+    height: 38px;
+    padding-top: 15px;
+
+}
+
+.text-list {
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+
+
+
+/* ---------------- SECTION PRODUCTS --------------- */
+.title-product {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 2.4rem;   
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.product-card {
+    flex: 1 0 240px;
+    max-width: 300px;
+    margin: 0 20px 20px;  
+}
+
+.product-img {
+    width: 240px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.name-product {
+    font-size: 2.0rem;
+    padding-top: 14px;
+}
+
+.name-color {
+    font-size: 2.0rem;
+    color: #BDBDBD;
+}
+
+.cost {
+    font-size: 2.4rem;
+    padding-top: 12px;
+}
+
+.list-sizes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 169px;
+    height: 29px;
+    list-style: none;
+}
+
+.size {
+    padding: 4px;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+
+/* ---------------- BLOG --------------- */
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blog_title {
+    padding: 44px 0;
+    font-size: 2.4rem; 
+    text-align: center;
+}
+
+.blog_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.news {
+    width: 331px;
+    height: 514px;
+}
+
+.data {
+    font-size: 1.2rem;
+    color: #BDBDBD;
+    padding-top: 29px;
+}
+
+.news-title {
+    font-size: 2.0rem;
+    padding-top: 12px;
+}
+
+.news-text {
+    font-size: 1.5rem;
+    color: #858585;
+    padding-top: 13px;
+}
+
+.news_img {
+    width: 331px;
+    height: 202px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 15px;
+
+}
+
+.text-list {
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+
+/* ---------------- SCROLLING --------------- */
+.scrolling {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 10px;
+    padding: 15px 0;
+
+    background: #313958;
+}
+
+.scrolling_title {
+    padding: 46px;
+    text-align: center;
+}
+
+.scrolling_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0;
+    width: auto;
+}
+
+.scrolling_img {
+    background-size: contain;
+    width: 349px;
+    height: 249px;
+    border-radius: 16px;
+
+}
+
+.black {
+    background-image: url(../assets/categories/woman-in-black.jpg);
+}
+
+.hat {
+    background-image: url(../assets/categories/woman-in-hat.jpg);
+}
+
+.shirt {
+    background-image: url(../assets/categories/woman-in-shirt.jpg);
+}
+
+.white {
+    background-image: url(../assets/categories/woman-in-white.jpg);
+}
+
+.list-arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+
+    width: 199px;
+    height: 41px;
+    list-style: none;
+}
+
+.arrow {
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+}
+
+.left {
+    background-image: url(../assets/arrow-left.png);
+    background: rgba(222, 222, 222, 0.2);
+}
+
+.right {
+    background-image: url(../assets/arrow-right.png);
+    background: white;
+}
+
+.disguise {
+    display: none;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+
+    /*delete*/
+    background: #454C68;
+}
+
+.blue {
+    background: #48AAFF;
+}
+
+.disguise {
+    display: none;
+}
+
+/* ---------------- FOOTER --------------- */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+    background: #252B42;
+}
+
+/* ---------------- NAVIGATION --------------- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 206px;
+    height: 78px;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 647px;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.link-nav{
+    display: block;
+    padding: 12px 24px;
+    color: #fff;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 600;
+
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 171px;
+    height: 41px;
+}
+
+.network {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 568px) {
+    html {
+        font-size: 8px;
+    }
+
+    .main_products {
+        justify-content: center;
+    }    
+    .list {
+        width: 250px;
+    }
+
+    .list-sizes {
+        display: none;
+    }
+
+    .product {
+        justify-content: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .blog_content {
+        justify-content: center;
+    } 
+
+    .arrows {
+        justify-content: space-around;
+    }
+
+    .arrow {
+        display: none;
+    }
+    
+    .scrolling_cards {
+        justify-content: center;
+    }
+    
+    .disguise {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .conceal {
+        display: none;
+    }
+
+    .scrolling_cards {
+        justify-content: space-around;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation {
+        width: auto;
+    }
+}
